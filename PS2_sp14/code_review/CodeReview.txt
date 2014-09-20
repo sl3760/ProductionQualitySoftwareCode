@@ -1,0 +1,23 @@
+Please enter your code review in this file as plain text
+and make sure to include it when you commit your project.
+
+1. It could be better to divide names into first name and last name.
+
+2. It could be better to divide address into Street, City, State, Country, ZIP.
+
+3. In Entry class, the code did not check if name or address is null or empty.
+
+4. In Entry class, the code did not check the validation of phone number and email.
+
+5. It could be better to return collections.unmodifiableList.
+
+6. When override hashCode method, it could be better to multiply a prime every step.
+
+7. When override equals method, it should firstly judge if this==obj.
+
+8. In AddressBook class, it has to provide a prefix property. It could be better to implement any keyword search.
+
+9. No java doc for constructObject method in AddressBook class.
+
+10. In Entry class, there is no default action in case condition in editField method or it did not check the validation of the property.
+

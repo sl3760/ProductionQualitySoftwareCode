@@ -1,0 +1,9 @@
+Please enter your code review in this file as plain text
+and make sure to include it when you commit your project.
+
+1. It is better to point that id is null or empty separately.
+2. No override equals method
+3. toString method was too simple did not include lap records.
+4. Had better return a collections.unmobifiableList() for lap times. 
+5. Had better have synchronized method on getStopwatch in StopwatchFactor.
+6. Had better use CopyOnWriteMap instead of synchronizedMap in StopwatchFactor.
